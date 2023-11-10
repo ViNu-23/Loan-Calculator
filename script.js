@@ -28,16 +28,17 @@ else{
 }
 
 }
+
 function showAlert(error) {
   const errorDiv = document.createElement('div');
-  errorDiv.className='alert alert-danger';
+  errorDiv.className = 'alert alert-danger';
   errorDiv.appendChild(document.createTextNode(error));
   const card = document.querySelector('.card');
-  const heading = document.querySelector('.heading')
-  card.insertBefore(errorDiv,heading); 
+  const heading = document.querySelector('.heading');
+  card.insertBefore(errorDiv, heading);
 
+  // Remove the alert after 3 seconds
+  setTimeout(function() {
+    errorDiv.remove();
+  }, 1000);
 }
-setTimeout(function(){
-const msg = document.getElementsByClassName('.alert');
-msg.remove();
-},3000)

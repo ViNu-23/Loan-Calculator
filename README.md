@@ -24,3 +24,9 @@ It inserts the error div into the HTML, specifically before the heading in the c
 Timeout Function:
 
 There's a setTimeout function that attempts to remove the alert message after 3 seconds. However, there is an issue with the code.
+
+# Sample Images
+<img width="487" alt="Screenshot 2023-11-11 034845" src="https://github.com/ViNu-23/Loan-Calculator/assets/59360964/a276d052-7536-49df-bc4b-69ea069cacd7">
+<img width="428" alt="Screenshot 2023-11-11 034912" src="https://github.com/ViNu-23/Loan-Calculator/assets/59360964/228d312d-28a6-4653-a0b1-02c54bced7e4">
+
+# Calculate Your Loan
