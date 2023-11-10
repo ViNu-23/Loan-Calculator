@@ -1,12 +1,13 @@
 # Simple Loan-Calculator Using Java Script
 
-Application Usage:
+# Application Usage:
 Users input loan details (amount, interest rate, and duration).
 Upon submission, the application calculates and displays the monthly payment, total loan amount, and total interest.
 If there's an error in the input, an alert is displayed for a brief period.
 Ensure that the HTML structure and JavaScript code are properly integrated into your web page for the application to work as intended.
 
-JavaScript Code:
+# JavaScript Code:
+
 Form Submission Event Listener:
 
 The script targets the form with the ID "loan-form" and adds a submit event listener that calls the calculate function.
